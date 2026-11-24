@@ -1,0 +1,6 @@
+# 钉死行尾：默认文本一律 LF；.bat 必须 CRLF（Windows 批处理对 LF 敏感）。
+# 注意 gitattributes 是「后面的规则覆盖前面的」，所以先写宽泛默认、再写特例。
+* text=auto eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.bat text eol=crlf

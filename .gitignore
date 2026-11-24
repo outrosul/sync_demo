@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# 本机
+*.log
+.DS_Store
+
+# 测试产物
+screenshots/
+verify_out.txt
